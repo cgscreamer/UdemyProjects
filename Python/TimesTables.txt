@@ -1,0 +1,11 @@
+0 times 2 is 01 times 2 is 22 times 2 is 43 times 2 is 64 times 2 is 85 times 2 is 106 times 2 is 127 times 2 is 148 times 2 is 169 times 2 is 1810 times 2 is 200 times 2 is 0 
+1 times 2 is 2 
+2 times 2 is 4 
+3 times 2 is 6 
+4 times 2 is 8 
+5 times 2 is 10 
+6 times 2 is 12 
+7 times 2 is 14 
+8 times 2 is 16 
+9 times 2 is 18 
+10 times 2 is 20 

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New Elements & Tags </title>
+  <style>
+
+  body{
+    background: #666;
+    color: #ff0000;
+    font-family: arial;
+  }
+
+  a{
+    color: #f0ff0f;
+
+  }
+
+  ul{
+    padding:0;
+  }
+
+  #container{
+    background: #123456;
+    margin: 30px auto;
+    overflow: hidden;
+    padding: 10px;
+  }
+
+  nav{
+    height: 40px;
+    background: #654321;
+  }
+
+  nav ul{
+    padding=top: 13px;
+    padding-left: 10px;
+  }
+
+  nav li{
+    list-style: none;
+    float:left;
+    padding-right: 20px;
+  }
+
+  main{
+    float: left;
+    width: 60%;
+  }
+  aside{
+    float:right;
+    width: 30%;
+    background: #666666;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  </style>
+
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1>My Webpage</h1>
+    </header>
+    <nav>
+      <ul>
+        <li> <a href="#"> Home</a></li>
+        <li> <a href="#"> About</a></li>
+        <li> <a href="#"> Contact</a></li>
+        <li> <a href="#"> Sandwich</a></li>
+    </ul>
+    </nav>
+    <main>
+      <h1> Video </h1>
+      <video src="https://drive.google.com/file/d/1cHU2XGakhm6M6xLsO0q9hI1Y-Wdhd9BW/view?usp=sharing" controls>
+        Your video of life
+      </video>
+
+      <h1> Audio </h1>
+      <audio id="myAudio" src="/audio/notexisting.mp3" autoplay controls>
+        Y u no have sound?
+      </audio>
+      <div>
+        <button onclick="document.getElementById("myAudio").play()">
+          play
+        </button>
+        <button onclick="document.getElementById("myAudio").pause()">
+          pause
+        </button>
+        <button onclick="document.getElementById("myAudio").volume+=0.1">
+          Vol UP
+        </button>
+        <button onclick="document.getElementById("myAudio").volume-=0.1">
+          Vol DOWN
+        </button>
+      </div>
+
+      <h1> Articles </h1>
+      <article>
+        Words
+      </article>
+    </main>
+    <aside>
+      miaow
+    </aside>
+
+    <footer>
+      Copyright &copy; 2019
+    </footer>
+  </div>
+</body>
+</html>
