@@ -1,3 +1,7 @@
+# We know that to get the Young's Modulus, we divide stress by strain,
+# This is a quick programme to do that for us -especially in cases where
+# we're dealing with varying numbers.
+
 stress = raw_input("What is the stress (in newtons)?: ")
 strain = raw_input("What is the strain (in milimetres)?: ")
 
